@@ -2,10 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="initial-scale=1,maximum-scale=1,user-scalable=no"
-    />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	  
     <title>Flood Ealry Warning System</title>
     
     <link rel="stylesheet" href="https://js.arcgis.com/4.13/esri/themes/dark/main.css"/>
@@ -44,10 +42,7 @@
             
       </div>
     </nav>
-    
-    			    
-
-    
+	  
     <script src="https://js.arcgis.com/4.13/"></script>
     <script>
       var map, view;
@@ -216,8 +211,7 @@
         view.ui.add(bgExpand, "top-right");
       });
     </script>
-    
-			    
+    	    
     <div id="viewDiv"></div>
     
   </body>
